@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Momo Trust Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  background-color: black;
+}
+
+.container1 {
+  background-image: url(Image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(237, 185, 64);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #c1942b;
+}
+
+.navbar a:active {
+  color: #c02424;
+  transform: scale(0.97);
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 40px;
+  font-size: small;
+  border: none;
+  background-color: rgb(237, 185, 64);
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #c1942b;
+}
+
+button:active {
+  background-color: #c02424;
+  transform: scale(0.97);
+}
+
+.container1-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+}
+
+.container1-intro h1 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.container1-intro p {
+  color: white;
+  opacity: 0.6;
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f0e0e;
+  color: white;
+} */
+
+/* Bagian utama */
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #1a1818;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #6b2181;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.closing {
+  background-color: rgb(237, 185, 64);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 100px;
+}
+
+.closing h2 {
+  margin-bottom: 40px;
+}
+
+.closing p {
+  margin-bottom: 20px;
+}
+
+.footer-button {
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: small;
+  font-weight: 200;
+}
+
+@media (max-width: 1100px) {
+  .closing img {
+    display: none;
+  }
+}
